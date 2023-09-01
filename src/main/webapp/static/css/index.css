@@ -1,0 +1,331 @@
+@charset "UTF-8";
+body{
+	font-family: "Microsoft Yahei";
+	font-size:14px;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.42857143;
+    background-color: #ff0;
+    color:#333;
+}
+body h2{
+	margin:0px;
+	padding:0px;
+}
+.clearfix{
+	clear:both;
+}
+.width1003{
+	width:1003px;
+	margin:0 auto;
+}
+.logo{
+	float:left;
+	width:202px;
+	height:86px;
+	padding:12px 0 0 0;
+	background-color:#ff0;
+}
+.topLink{
+	float:left;
+	width:540px;
+	height:35px;
+	margin:43px 0 0 110px;
+}
+.topLink a{
+	float:left;
+	width:113px;
+	height:35px;
+	padding-left:33px;
+	line-height:33px;
+	font-size:1.4rem;
+	color:#333;
+}
+.topLink a:hover{
+	cursor:pointer;
+	text-decoration: none;
+	transition: all .3s ease-out;
+	border: 0;
+	color:#f00;
+}
+.tl1{
+	background:url(../images/icon1.jpg) left center no-repeat;
+}
+.tl2{
+	background:url(../images/icon2.jpg) left center no-repeat;
+}
+.tl3{
+	background:url(../images/icon4.jpg) left center no-repeat;
+}
+.phone{
+	float:left;
+	width:200px;
+	height:35px;
+	line-height:33px;
+	font-size:1.4rem;
+	padding-left:33px;
+	background:url(../images/icon3.png) left center no-repeat;
+}
+.right{
+	float:left;
+	width:110px;
+	height:35px;
+	margin-top:43px;
+	margin-left:30px;
+}
+.right a{
+	float:left;
+	line-height:33px;
+	font-size:1.4rem;
+	color:#333;
+}
+.right a:hover{
+	cursor:pointer;
+	text-decoration: none;
+	transition: all .3s ease-out;
+	border: 0;
+	color:#f00;
+}
+.right .line{
+	float:left;
+	margin-top:5px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.nav{
+	width:100%;
+	height:60px;
+	background:#281110;
+	margin-top:20px;
+	margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.nav .width1003{
+	width:1003px;
+	margin:auto;
+}
+.nav ul{
+	list-style:none;
+}
+.nav li{
+	float:left;
+	width:150px;
+	height:60px;
+	position:relative;
+}
+.nav li a.navCur{
+	background: #150908;
+    color: #ed6c2c;
+}
+.nav li a{
+	float:left;
+	height:60px;
+	line-height:60px;
+	width:100%;
+	text-align:center;
+	font-size:1.5rem;
+	color:#fff;
+}
+.nav li a:hover{
+	cursor:pointer;
+	text-decoration: none;
+}
+.nav .childNav{
+	position:absolute;
+	width:100%;
+	left:0px;
+	top:60px;
+	z-index:9999;
+	background:#fff;
+	display:none;
+	border: #ddd 1px solid;
+}
+.nav .childNav a{
+	display:block;
+	float:none;
+	height:35px;
+	line-height:35px;
+	border-bottom:#ddd 1px solid;
+	color:#281110;
+}
+.nav .childNav a:hover{
+	color:#fff; 
+	background:#ed6c2c;
+	transition: all .3s ease-out;
+}
+.nav li:hover .childNav{
+	display:block;
+}
+.content .title{
+	font-size:24px;
+	font-weight:400;
+	height:50px;
+	line-height:50px;
+	border-bottom:#ddd 1px solid;
+	margin-top:20px;
+}
+.content .title span{
+	color:#888;
+}
+.content .notice_info{
+	padding:20px 0;
+}
+.content .info{
+	padding:0px;
+	list-style:none;
+	width:425px;
+	float:left;
+}
+.content .info li{
+	height:43px;
+	line-height:43px;
+	font-size:1.4rem;
+	position:relative;
+}
+.content .info .carInfo{
+	display:inline-block;
+	width:70%;
+	overflow:hidden;
+	height:43px;
+}
+.content .info .dateTime{
+	position:absolute;
+	right:10px;
+	top:0px;
+	color:#666;
+}
+
+.content .info2{
+	margin-top:-20px;
+	padding:0px;
+	list-style:none;
+	width:425px;
+	float:right;
+}
+.content .info2 li{
+	height:43px;
+	line-height:43px;
+	font-size:1.4rem;
+	position:relative;
+}
+.content .info2 .saveInfo{
+	display:inline-block;
+	width:80%;
+	overflow:hidden;
+	height:43px;
+	margin-left:-40px;
+}
+.content .info2 .saveTime{
+	position:absolute;
+	right:10px;
+	top:0px;
+	color:#666;
+}
+.content .travelRoutes{
+	padding:20px 0px;
+}
+.content .routes{
+	padding:0px;
+	list-style:none;
+	width:425px;
+	float:left;
+}
+.content .routes li{
+	height:43px;
+	line-height:43px;
+	font-size:1.4rem;
+	position:relative;
+}
+.content .routes li a{
+	display:inline-block;
+	width:70%;
+	overflow:hidden;
+	height:43px;
+}
+.content .routes li a{
+	color:#333;
+}
+.content .routes li a:hover{
+	cursor:pointer;
+	text-decoration: none;
+	color:#ed6c2c;
+	transition: all .3s ease-out;
+}
+.content .routes .servePrice{
+	position:absolute;
+	right:10px;
+	top:0px;
+	color:#666;
+}
+.content .travel_img{
+	width:560px;
+	float:right;
+	margin-top:-20px;
+}
+footer{
+	margin-top:20px;
+	padding-top:10px;
+	background:#281210;
+	color:#fff;
+}
+footer a{
+	color:#fff;
+}
+footer a:hover{
+	cursor:pointer;
+	text-decoration: none;
+	color:#ed6c2c;
+	transition: all .3s ease-out;
+}
+footer ul{
+	float:left;
+	width:118px;
+	list-style:none;
+	padding:0;
+	margin-right:30px;
+}
+footer .ft-title{
+	font-weight:bold;
+	height:30px;
+	line-height:30px;
+	font-size:1.4rem;
+}
+footer li{
+	height:22px;
+	line-height:22px;
+	font-size:1.2rem;
+}
+.footcontact{
+	float:left;
+	width:265px;
+	font-size:1.2rem;
+	line-height:20px;
+}
+.footcontact dl{
+	padding:5px 0 0 0;
+	}
+.footcontact dt{
+	float:left;
+	width:90px;
+	height:91px;
+}
+.footcontact dd{
+	margin-left:10px;
+	float:left;
+	width:150px;
+	font-size:1.3rem;
+	line-height:25px;
+}
+.copy{
+	margin-top:-10px;
+	padding:10px 0;
+	text-align:center;
+	background:#f16d2c;
+	color:#fff;
+}
+.copy a{
+	color:#fff;
+}
+

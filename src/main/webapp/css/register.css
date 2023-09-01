@@ -1,0 +1,120 @@
+body{
+padding:0;
+margin:0;
+background:url(../images/banner.png) 0px 0px;;
+font-family: 'Lato', sans-serif !important;
+}
+
+/*-- main --*/
+.content{
+	padding:60px 0;
+}
+.main {
+    width: 24%;
+    margin: 0 auto 0 auto;
+    background: #fff;
+    padding: 30px 64px;
+}
+p.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 15px;
+}
+p.footer a{
+	text-decoration:none;
+	color: #5A150B;
+}
+p.footer a:hover{
+	color:#fff;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.main h2 {
+    color: #5BC0DE;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.main p {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    margin: 25px 0;
+}
+.main form input[type="text"], .main form input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 2px solid #e6e6e6;
+    outline: none;
+    color: #D8D5D5;
+    margin-bottom: 20px;
+
+}
+.main h5 {
+    font-family: 'Amaranth', sans-serif;
+	margin:0;
+	font:inherit;
+    color:#5BC0DE;
+    margin-bottom: 8px;
+	font-size:15px;
+}
+.main form input[type="text"]:hover, .main form input[type="password"]:hover{
+	border-bottom: 2px solid #B384FB;
+	color:#000;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+.main form input[type="submit"] {
+    background:#5BC0DE;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 0;
+    border: none;
+    font-size: 17px;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 0px;
+
+}
+.main form input[type="submit"]:hover{
+    background:#85a8a5;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.main form input[type="button"] {
+    background:#5BC0DE;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 0;
+    border: none;
+    font-size: 17px;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-top:10px;
+
+}
+.main form input[type="button"]:hover{
+    background:#85a8a5;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
